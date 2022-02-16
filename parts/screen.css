@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
 	color: orange;
 	text-align: center;
 }
@@ -14,7 +14,14 @@ header p span {
 .highlight {
 	background-color: yellow;
 }
+*/
+body {
+	background-color: black;
+}
 
+p {
+	color: green;
+}
 footer .highlight {
 	background-color: LightGray;
 }
