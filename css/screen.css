@@ -8,9 +8,12 @@ h1 {
 }
 
 div {
-	 text-align: center;
+	 color: greenyellow;
 }
 
+footer .highlight {
+	background-color: greenyellow;
+}
 /*
 
 .container {
