@@ -1,5 +1,5 @@
 html {
-	background-color: #000;
+	background-color: black;
 }
 
 h1 {
@@ -18,6 +18,10 @@ footer .highlight {
 
 span {
 	color: red;
+}
+
+.hidden{
+	text-align: center;
 }
 /*
 
