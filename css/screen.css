@@ -7,23 +7,69 @@ h1 {
 	text-align: center;
 }
 
-div {
-	 color: greenyellow;
-	 text-align: center;
+.pic{
+	width: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
-footer .highlight {
-	background-color: greenyellow;
+.highlight {
+/*	background-color: greenyellow;
+	foreground-color: black;*/
+	width: 150px;
+	text-align: center;
 }
 
 span {
 	color: red;
 }
 
-.hidden{
-	text-align: center;
+
+
+div {
+	 text-align: center;
+}
+
+
+p {
+	color: greenyellow;
+	text-align: left;
+}
+
+ul {
+	color: greenyellow;
+	text-align: left;
+
 }
 /*
+.sitenav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.sitenav li{
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+*/
+.sitenav a{
+	color: greenyellow;
+	/*display: block;
+	color: greenyellow;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid green;*/
+}
+/*
+.sitenav a:hover{
+	background-color: rgb(157, 197, 184);
+}
+*/
+
+
+
 
 .container {
 	width: 940px;
@@ -32,13 +78,15 @@ span {
 }
 
 .content-area {
-	border-top: 3px solid #000;
-	border-bottom: 3px solid #000;
+	border-top: 3px solid greenyellow;
+	border-bottom: 3px solid greenyellow;
 }
 
 .main-area {
-	width: 66%;
+	width: 60%;
 	float: left;
+	padding-right: 10px;
+
 }
 
 .sidebar {
@@ -50,6 +98,7 @@ span {
 	clear: both;
 }
 
+/* this is for older browsers supposedly, like i give a crap*/
 .group:before,
 .group:after {
 	content: "";
@@ -63,4 +112,3 @@ span {
 .group {
 	zoom: 1;
 }
-*/
