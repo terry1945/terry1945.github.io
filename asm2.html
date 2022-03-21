@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>.asm</title>
+		<link rel="stylesheet" href="css/my.css">
+	</head>
+
+		<div class="left">
+		<nav class="sitenav">
+			<ul class="group">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="vim.html">VIM</a></li>
+				<li><a href="C.html">C</a></li>
+				<li><a href="asm.html">Assembly</a></li>
+				<li><a href="about2.html">About</a></li>
+
+			</ul>
+		</nav>
+		</div>
+
+	  <body>
+		<header>
+			<h1>Some Assembly notes:</h1>
+			<p>I've seen this as assembly and assembler. I think of assembler as the compiler
+				and assembly as the language.
+			</p>
+		</header>
+
+<!-- No Divs initially -->
+	<div>
+		<p>An example makefile:</p>
+
+		<pre>
+			#makefile for hello.asm
+			hello: hello.o
+				ld -o hello hello.o
+			hello.o: hello.asm
+				nasm -f elf64 hello.asm
+		</pre>
+
+
+		<p>A comment is preceeded with a semi colon ; .</p>
+	</div>
+		<footer>
+			<p class="highlight"><span>&copy;</span> 2022 - LeweyHorse<span>!</span> </p>
+		</footer>
+
+	</body>
+
+</html>
